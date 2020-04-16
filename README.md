@@ -1,5 +1,5 @@
 # minikube
-Minikube installation on Amazon EC2 
+Webapp deployment using minikube on Amazon EC2 
 
 Requirements:
 1. Server with minimum 4GB RAM and 25G HD. Below environment was set up on Amazon EC2-CentOS
