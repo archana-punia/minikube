@@ -2,7 +2,7 @@
 Webapp deployment using minikube on Amazon EC2 
 
 Requirements:
-1. Server with minimum 4GB RAM and 25G HD. Below environment was set up on Amazon EC2-CentOS
+1. Below environment was set up on Amazon EC2-CentOS free-tier
 2. Using Minikube, this code will run a web application to find anagrams of a single word
 
 Installation steps:
