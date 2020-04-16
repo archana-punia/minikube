@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anagram-deployment
+  labels:
+    app: anagram
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anagram
+  template:
+    metadata:
+      labels:
+        app: anagram
+    spec:
+      containers:
+      - name: anagram
+        image: archanapunia/anagram
+        ports:
+        - containerPort: 5000
